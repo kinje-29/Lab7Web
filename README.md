@@ -14,37 +14,61 @@
 
 
 3. Membuat perhitungan
+
+
 ![5.png](Gambar/5.png)
+
+
 ![6.png](Gambar/6.png)
 
 
 
 4. Looping IF
+
+
 ![7.png](Gambar/7.png)
+
+
 ![8.png](Gambar/8.png)
 
 
 
 5. Looping Switch case
+
+
 ![9.png](Gambar/9.png)
+
+
 ![10.png](Gambar/10.png)
 
 
 
 6. Looping For
+
+
 ![11.png](Gambar/11.png)
+
+
 ![12.png](Gambar/12.png)
 
 
 
 7. Looping while
+
+
 ![13.png](Gambar/13.png)
+
+
 ![14.png](Gambar/14.png)
 
 
 
 8. Looping do while
+
+
 ![15.png](Gambar/15.png)
+
+
 ![16.png](Gambar/16.png)
 
 
