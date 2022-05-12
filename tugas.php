@@ -39,7 +39,6 @@
       // Output Nama
       echo @'nama saya ' . @$_POST['nama'];
       echo '<br>';
-
       // Output tanggal lahir
       $tanggal_lahir = new DateTime(@$_POST['Tanggal']);
       $sekarang = new DateTime("today");
@@ -48,11 +47,9 @@
         $bln = "0";
         $tgl = "0";
       }
-
       $thn = $sekarang->diff($tanggal_lahir)->y;
       echo "Umur " . "( " . $thn  . " Tahun )";
       echo '<br>';
-
 
       // Output pekerjaan
       echo 'pekerjaan  '  . @$_POST['job'];
