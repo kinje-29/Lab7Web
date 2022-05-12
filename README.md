@@ -79,20 +79,28 @@ Buatlah program PHP sederhana dengan menggunakan form input yang menampilkan nam
 
 
 9. Input Data
+
+
 ![HasilTugas.png](Gambar/HasilTugas.png)
 
 
 10. Output Data
+
+
 ![HasilTugas1.png](Gambar/HasilTugas1.png)
 
 
 
 11. Kode Program 
+
 ![Tugas1.png](Gambar/Tugas1.png)
+
 ![Tugas2.png](Gambar/Tugas2.png)
 
 
 
 12. CSS 
+
 ![Tugas3.png](Gambar/Tugas3.png)
+
 ![Tugas4.png](Gambar/Tugas4.png)
