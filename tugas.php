@@ -31,16 +31,17 @@
       </select>
       <br>
       <input type="submit" class="kirim" name="submit" value="Submit">
+      <hr>
     </form>
 
     <div class="output">
       <?php
       // Output Nama
-      echo 'nama saya ' . $_POST['nama'];
+      echo @'nama saya ' . @$_POST['nama'];
       echo '<br>';
 
       // Output tanggal lahir
-      $tanggal_lahir = new DateTime($_POST['Tanggal']);
+      $tanggal_lahir = new DateTime(@$_POST['Tanggal']);
       $sekarang = new DateTime("today");
       if ($tanggal_lahir > $sekarang) {
         $thn = "0";
@@ -49,19 +50,20 @@
       }
 
       $thn = $sekarang->diff($tanggal_lahir)->y;
-      echo "Umur " . $thn;
+      echo "Umur " . "( " . $thn  . " Tahun )";
       echo '<br>';
 
+
       // Output pekerjaan
-      echo 'pekerjaan  ' . $_POST['job'];
+      echo 'pekerjaan  '  . @$_POST['job'];
       echo '<br>';
-      if ($_POST['job'] == 'programer') {
+      if (@$_POST['job'] == 'programer') {
         echo 'gaji Rp. 8.000.000 Juta';
-      } elseif ($_POST['job'] == 'designer') {
+      } else if (@$_POST['job'] == 'designer') {
         echo 'gaji Rp. 6.000.000 juta';
-      } elseif ($_POST['job'] == 'manager') {
+      } else if (@$_POST['job'] == 'manager') {
         echo 'gaji Rp. 5.000.000 juta';
-      } else if ($_POST['job'] == 'buruh') {
+      } else if (@$_POST['job'] == 'buruh') {
         echo 'Gaji Rp. 3.000.000 Juta';
       } else {
         echo 'Tidak Memiliki pekerjaan ';
