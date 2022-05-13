@@ -37,7 +37,7 @@
     <div class="output">
       <?php
       // Output Nama
-      echo @'nama saya ' . @$_POST['nama'];
+      echo 'nama saya ' . @$_POST['nama'];
       echo '<br>';
       // Output tanggal lahir
       $tanggal_lahir = new DateTime(@$_POST['Tanggal']);
