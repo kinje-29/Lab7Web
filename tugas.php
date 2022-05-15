@@ -18,7 +18,7 @@
       <label for="">Nama</label>
       <input class="nama" type="text" name="nama" id="" placeholder="Masukan Nama....">
       <br>
-      <label for="">tanggal lahir</label>
+      <label for="">Tanggal Lahir</label>
       <input class="nama" type="date" name="Tanggal" value="">
       <br>
       <label for="job">Pekerjaan</label>
@@ -37,7 +37,7 @@
     <div class="output">
       <?php
       // Output Nama
-      echo 'nama saya ' . @$_POST['nama'];
+      echo 'nama  ' . @$_POST['nama'];
       echo '<br>';
       // Output tanggal lahir
       $tanggal_lahir = new DateTime(@$_POST['Tanggal']);

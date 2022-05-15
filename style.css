@@ -15,6 +15,7 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
 hr{
   margin-bottom: 10px;
   margin-top: 10px;
@@ -26,6 +27,8 @@ hr{
   background: white;
   margin: 50px auto;
   padding: 20px 20px;
+  border-radius: 20px;
+  box-shadow: 5px 15px 35px #1b1d1c;
   
 }
 
@@ -36,7 +39,9 @@ hr{
 }
 
 label {
-  font-size: 11pt;
+  font-size: 13pt;
+  padding-left: 15px;
+  font-weight: bold;
 }
 
 .nama {
@@ -46,6 +51,7 @@ label {
   font-size: 11pt;
   margin-bottom: 20px;
   margin-top: 10px;
+  border-radius: 20px;
 }
 
 .kirim {
